@@ -4,13 +4,13 @@ import '../App.css'
 
 export default function TopBar(props) {
     return (
-        <div className="topbar">
+        <div className={props.className}>
 
-            <div className="stadiaStore">
+            <div className={props.barDiv}>
                 <i class="fas fa-shopping-bag hi"></i>
-                <h5 className="stadiaStoreList" >Play Cyberpunk 2077 on Stadia!</h5>
+                <h5 className={props.barHeader} >Play Cyberpunk 2077 on Stadia!</h5>
             </div>
-            <p className="stadiaStoreLinks"><a>Click here to Buy Now.</a> No subscription required.</p>
+            <p className={props.text}><a>Click here to Buy Now.</a> No subscription required.</p>
 
         </div>
     )

@@ -1,14 +1,15 @@
 import React from "react";
 import "../App.css";
+import {nanoid} from 'nanoid'
 
 const CardList = (props) => {
     return (
-      <div className="cardsGrid">
+      <div className={props.display}>
         {props.tasks.map(data => {
           return (
-              <div>
+              <div key={data.name + nanoid()}>
                 <img src={data.link}></img>
-                <p className="cardTitle">{data.name}</p>
+                <p className={props.titleClass} >{data.name}</p>
               </div>
           );
         })}

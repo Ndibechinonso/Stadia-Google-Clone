@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
     
-     <TopBar />
+     <TopBar className="topbar" barDiv="stadiaStore" barHeader="stadiaStoreList" text="stadiaStoreLinks" />
      <div className="container">
-     <NavBar />
-     <CardsGrid  />
-     <Footer />
+     <NavBar className="navbar" imgDiv="Stadia-logo" midMenu="navListPair navListPairResp" subMenu1="about" subMenu2="redNavItem" endMenu="navListPair signInResp" subMenu3="redNavItem signIn" subMenu4="try" />
+     <CardsGrid />
+     <Footer className="footer" />
     </div>
     </div>
   );
