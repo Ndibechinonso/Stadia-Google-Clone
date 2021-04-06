@@ -4,7 +4,7 @@ import {nanoid} from 'nanoid'
 
 const CardList = (props) => {
     return (
-      <div className={props.display}>
+      <div className={props.display}>                     
         {props.tasks.map(data => {
           return (
               <div key={data.name + nanoid()}>

@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+SC:wght@400;500&display=swap");
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .App {
   font-family: "Noto Sans SC", sans-serif;
   font-weight: 400;
@@ -9,6 +13,7 @@
   margin-right: 60px;
 }
 .topbar {
+  margin: auto;
   text-align: center;
   background-color: rgb(222, 51, 52);
   color: white;
@@ -154,9 +159,7 @@ a {
     margin-left: 30px;
     margin-right: 30px;
   }
-  .hi{
-    display: none;
-  }
+
 }
 
 @media only screen and (max-width: 735px) {
@@ -205,3 +208,13 @@ a {
     margin-bottom: 40px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .stadiaStoreLinks {
+    margin-left: 0;
+    left: 0;
+  }
+
+
+}
+

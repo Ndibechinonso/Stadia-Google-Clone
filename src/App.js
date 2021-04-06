@@ -10,7 +10,7 @@ function App() {
     
      <TopBar className="topbar" barDiv="stadiaStore" barHeader="stadiaStoreList" text="stadiaStoreLinks" />
      <div className="container">
-     <NavBar className="navbar" imgDiv="Stadia-logo" midMenu="navListPair navListPairResp" subMenu1="about" subMenu2="redNavItem" endMenu="navListPair signInResp" subMenu3="redNavItem signIn" subMenu4="try" />
+     <NavBar className="navbar" imgDiv="stadia-logo" midMenu="navListPair navListPairResp" subMenu1="about" subMenu2="redNavItem" endMenu="navListPair signInResp" subMenu3="redNavItem signIn" subMenu4="try" />
      <CardsGrid />
      <Footer className="footer" />
     </div>
